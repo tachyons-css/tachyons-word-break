@@ -1,0 +1,17 @@
+/*
+
+  WORD BREAK
+
+*/
+
+.wb-normal {
+  word-break: normal;
+}
+
+.break {
+  word-break: break-all;
+}
+
+.no-break {
+  word-break: keep-all;
+}
