@@ -1,10 +1,10 @@
-# tachyons-word-break 1.0.0
+# tachyons-word-break 1.0.1
 
 Tachyons CSS module of utilities for setting word-break
 
 #### Stats
 
-189 | 12 | 12
+191 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -62,21 +62,21 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 
 */
 .wb-normal { word-break: normal; }
-.word-wrap { word-break: break-all; }
+.wb-all { word-break: break-all; }
 .word-nowrap { word-break: keep-all; }
 @media screen and (min-width: 48em) {
  .wb-normal-ns { word-break: normal; }
- .word-wrap-ns { word-break: break-all; }
+ .wb-all-ns { word-break: break-all; }
  .word-nowrap-ns { word-break: keep-all; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
  .wb-normal-m { word-break: normal; }
- .word-wrap-m { word-break: break-all; }
+ .wb-all-m { word-break: break-all; }
  .word-nowrap-m { word-break: keep-all; }
 }
 @media screen and (min-width: 64em) {
  .wb-normal-l { word-break: normal; }
- .word-wrap-l { word-break: break-all; }
+ .wb-all-l { word-break: break-all; }
  .word-nowrap-l { word-break: keep-all; }
 }
 ```
