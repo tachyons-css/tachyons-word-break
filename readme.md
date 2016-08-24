@@ -82,17 +82,17 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .word-normal { word-break: normal; }
 .word-wrap { word-break: break-all; }
 .word-nowrap { word-break: keep-all; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .word-normal-ns { word-break: normal; }
  .word-wrap-ns { word-break: break-all; }
  .word-nowrap-ns { word-break: keep-all; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .word-normal-m { word-break: normal; }
  .word-wrap-m { word-break: break-all; }
  .word-nowrap-m { word-break: keep-all; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .word-normal-l { word-break: normal; }
  .word-wrap-l { word-break: break-all; }
  .word-nowrap-l { word-break: keep-all; }
